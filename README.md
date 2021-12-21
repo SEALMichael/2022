@@ -4,5 +4,5 @@
 
 ---
 
-##日记
--2021年12月21日（https://github.com/SEALMichael/SEAL_Blog/issues/1）
+## 日记
+- [2021年12月21日]（https://github.com/SEALMichael/SEAL_Blog/issues/1）
