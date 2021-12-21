@@ -5,4 +5,4 @@
 ---
 
 ## 日记
-- https://github.com/SEALMichael/SEAL_Blog/issues/1
+- [开端](https://github.com/SEALMichael/SEAL_Blog/issues/1)
