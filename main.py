@@ -86,6 +86,24 @@ def add_issue_info(issue, md):
     md.write(f"- [{issue.title}]({issue.html_url})--{time}\n")
 
 
+def replace_readme_comments(file_name, comment_str, comments_name):
+    with open(file_name, "r+") as f:
+        text = f.read()
+        # regrex sub from github readme comments
+        text = re.sub(
+            GITHUB_README_COMMENTS.format(name=comments_name),
+            r"\1{}\n\3".format(comment_str),
+            text,
+            flags=re.DOTALL,
+        )
+        f.seek(0)
+        f.write(text)
+        f.truncate()
+    
+    
+    
+    
+    
 def add_md_todo(repo, md, me):
     todo_issues = list(get_todo_issues(repo))
     if not TODO_ISSUES_LABELS or not todo_issues:
