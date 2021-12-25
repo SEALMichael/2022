@@ -9,7 +9,7 @@ from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
 MD_HEAD = """## SEAL_Blog
-记录2022年。
+记录
 
 """
 
