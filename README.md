@@ -1,4 +1,5 @@
 ## SEAL_Blog
+记录2022年。
 
 ## 友情链接
 | Name | Link | Desc | 
